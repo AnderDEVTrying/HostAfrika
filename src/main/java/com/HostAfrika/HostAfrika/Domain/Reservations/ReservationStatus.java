@@ -1,5 +1,5 @@
 package com.HostAfrika.HostAfrika.Domain.Reservations;
 
-public enum Reservation_Status {
+public enum ReservationStatus {
     Pending, Confirmed, Canceled, Completed
 }

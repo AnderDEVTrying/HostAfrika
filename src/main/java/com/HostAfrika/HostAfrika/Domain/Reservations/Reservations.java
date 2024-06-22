@@ -26,6 +26,10 @@ public class Reservations {
     @JoinColumn(name = "listing_id")
     private Listings listings;
 
-    private Date from_date;
-    private Date to_date;
+    private Date fromDate;
+    private Date toDate;
+
+    private float totalPrice;
+    @Enumerated(EnumType.STRING)
+    private ReservationStatus status;
 }
